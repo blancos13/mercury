@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kaynak Dosyalar">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Kaynak Dosyaları">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\enet">
+      <UniqueIdentifier>{d12b7eda-515c-4cbd-9860-853440d625e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\enet">
+      <UniqueIdentifier>{4b7022b1-2ff8-490b-a530-1258c14010c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kaynak Dosyalar\http">
+      <UniqueIdentifier>{152f3657-ee16-4c46-91fb-b8fcd70d0292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Üst Bilgi Dosyaları\http">
+      <UniqueIdentifier>{e3b03838-32a6-4b67-aaed-0caf86a9b8f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base.cc">
+      <Filter>Kaynak Dosyalar</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\callbacks.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\compress.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\host.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\list.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\packet.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\peer.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\protocol.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\unix.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\win32.c">
+      <Filter>Kaynak Dosyalar\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="http.cpp">
+      <Filter>Kaynak Dosyalar\http</Filter>
+    </ClCompile>
+    <ClCompile Include="sandbird\sandbird.c">
+      <Filter>Kaynak Dosyalar\http</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enet\include\callbacks.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\enet.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\list.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\protocol.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\time2.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\types.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\unix.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\utility.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="enet\include\win32.h">
+      <Filter>Üst Bilgi Dosyaları\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="sandbird\sandbird.h">
+      <Filter>Üst Bilgi Dosyaları\http</Filter>
+    </ClInclude>
+    <ClInclude Include="http.h">
+      <Filter>Üst Bilgi Dosyaları\http</Filter>
+    </ClInclude>
+    <ClInclude Include="server.hpp">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="client.hpp">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+    <ClInclude Include="packet.hpp">
+      <Filter>Üst Bilgi Dosyaları</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
